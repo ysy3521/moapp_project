@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.StopwatchActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="400dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:src="@drawable/stopwatch"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter" />
+
+        <Chronometer
+            android:id="@+id/chronometer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="250dp"
+            android:layout_marginStart="98dp"
+            android:textSize="60sp"
+            android:fontFamily="@font/lab_digital" />
+    </RelativeLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_toRightOf="@+id/account_iv_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/start_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="40dp"
+            android:text="시작"
+            android:textSize="40sp"
+            android:fontFamily="@font/katuri" />
+
+        <Button
+            android:id="@+id/stop_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="정지"
+            android:textSize="40sp"
+            android:fontFamily="@font/katuri" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/reset_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="저장하기"
+        android:textSize="45sp"
+        android:fontFamily="@font/katuri" />
+</LinearLayout>

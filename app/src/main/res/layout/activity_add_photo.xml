@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:orientation="vertical"
+    android:gravity="center_vertical">
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_border">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/addphoto_img"
+                android:layout_width="350dp"
+                android:layout_height="350dp"
+                android:layout_margin="20dp" />
+
+            <EditText
+                android:id="@+id/addphoto_edit"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:hint="어떤 미션을 수행하셨나요?"
+                android:textSize="22dp"
+                android:fontFamily="@font/katuri"
+                android:maxLines="5"/>
+        </LinearLayout>
+    </FrameLayout>
+    <Button
+        android:id="@+id/addphoto_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:text="업로드"
+        android:fontFamily="@font/katuri"
+        android:textSize="30sp" />
+</LinearLayout>

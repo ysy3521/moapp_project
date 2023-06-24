@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <ImageView
+            android:id="@+id/account_iv_profile"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/usr_profile"
+            android:layout_margin="5dp"/>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_toRightOf="@+id/account_iv_profile"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="게시물"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/katuri"/>
+                <TextView
+                    android:id="@+id/account_tv_post_count"
+                    android:text="0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/katuri"/>
+            </LinearLayout>
+            <Button
+                android:id="@+id/account_btn_follow_signout"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:textSize="20dp"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@id/account_iv_profile"
+                android:text="나의 나무 키우기"
+                android:layout_marginRight="30dp"
+                android:fontFamily="@font/katuri"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/account_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp" />
+
+
+</LinearLayout>

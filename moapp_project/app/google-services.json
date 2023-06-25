@@ -1,33 +1,41 @@
 {
   "project_info": {
-    "project_number": "756227878933",
-    "project_id": "moapp-project-7f4db",
-    "storage_bucket": "moapp-project-7f4db.appspot.com"
+    "project_number": "528442045360",
+    "project_id": "moapp-a6f11",
+    "storage_bucket": "moapp-a6f11.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:756227878933:android:91bf670585da91114a9e1c",
+        "mobilesdk_app_id": "1:528442045360:android:966afac49b5dc620d11c75",
         "android_client_info": {
           "package_name": "com.example.moapp_project"
         }
       },
       "oauth_client": [
         {
-          "client_id": "756227878933-pod3cpnjbuivcigcgvmgj85jk4l4dtr6.apps.googleusercontent.com",
+          "client_id": "528442045360-9r7vrivpis7g4ravorab7cq00rihlhpo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.moapp_project",
+            "certificate_hash": "f8530a58b53b8d4667aada7e41871431c4ac74d4"
+          }
+        },
+        {
+          "client_id": "528442045360-d490vtmpavadf7o1r8spsml790qv95aa.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBxfd7GwhIAvIZMKonnZ2xc1z2LhkfLp9I"
+          "current_key": "AIzaSyDvcdg_eWPZ5yuax8I-u7-o7LVC4THFu78"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "756227878933-pod3cpnjbuivcigcgvmgj85jk4l4dtr6.apps.googleusercontent.com",
+              "client_id": "528442045360-d490vtmpavadf7o1r8spsml790qv95aa.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
